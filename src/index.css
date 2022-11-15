@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-custom {
+  background-color: #000a1f;
+}
+
+@font-face {
+  font-family: "BeVietnamPro-Black";
+  src: local("BeVietnamPro-Black"), url("./font.ttf");
+}
+
+.font-custom {
+  font-family: "BeVietnamPro-Black";
+}
+
+.color-custom2 {
+  color: white;
+}
+.top-text {
+  color: #00c7ff;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: inherit;
+  margin-top: 50px;
+}
+.modal {
+  font-size: 12px;
+}
+
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.button-modal {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #000a1f;
+  color: white;
+  border: 2px solid #000a1f;
+  border-radius: 20%;
+  font-size: 15px;
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.git {
+  padding-top: 2px;
+  padding-right: 5px;
+}
