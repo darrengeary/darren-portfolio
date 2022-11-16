@@ -14,7 +14,7 @@ export const projects = [
     description:
       "This site is a functioning ecommerce site designed for a hypothetical online store for party supplies",
     image: "./project-1.gif",
-    link: "http://208.73.206.91:5051/",
+    link: "http://popupparty.dgportfolio.ie/",
     git: "https://github.com/darrengeary/E-Commerce-MERN-Stack",
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     description:
       "This is a simple budget and expenditure app to help the user manage their income",
     image: "./project-3.gif",
-    link: "http://208.73.206.91:5050/",
+    link: "http://budget.dgportfolio.ie/",
     git: "https://github.com/darrengeary/Budget-React-App",
   },
 ]
