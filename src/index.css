@@ -40,6 +40,13 @@
 .popup-content {
   margin-top: 5% !important;
 }
+.preview {
+  cursor: pointer;
+}
+button:disabled,
+button[disabled] {
+  color: #666666;
+}
 
 .modal > .close {
   cursor: pointer;
@@ -92,7 +99,6 @@
   margin-right: auto;
   height: 360px;
 }
-
 
 .upcoming-cont {
   background-color: #efefef;

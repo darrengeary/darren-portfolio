@@ -17,7 +17,6 @@ export default function App() {
       <Projects />
       <Websites />
       <Skills />
-      <Upcoming />
       <Contact />
     </main>
   )

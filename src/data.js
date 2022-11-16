@@ -5,6 +5,8 @@ export const projects = [
     description:
       "This is a current project which is designed for a local school lunch supplier to receive orders from parents",
     image: "./ithe.jpg",
+    linkactive: true,
+    gitactive: true,
     link: "/",
     git: "/",
   },
@@ -14,6 +16,8 @@ export const projects = [
     description:
       "This site is a functioning ecommerce site designed for a hypothetical online store for party supplies",
     image: "./project-1.gif",
+    linkactive: false,
+    gitactive: false,
     link: "http://popupparty.dgportfolio.ie/",
     git: "https://github.com/darrengeary/E-Commerce-MERN-Stack",
   },
@@ -23,6 +27,8 @@ export const projects = [
     description:
       "This site displayed graphical statistics related to covid cases in Ireland and abroad",
     image: "./project-4.gif",
+    linkactive: true,
+    gitactive: false,
     link: "/",
     git: "https://github.com/darrengeary/Covid-Data-Website-Angular-Spring",
   },
@@ -32,6 +38,8 @@ export const projects = [
     description:
       "This is a simple budget and expenditure app to help the user manage their income",
     image: "./project-3.gif",
+    linkactive: false,
+    gitactive: false,
     link: "http://budget.dgportfolio.ie/",
     git: "https://github.com/darrengeary/Budget-React-App",
   },
@@ -42,6 +50,8 @@ export const websites = [
     subtitle: "Static HTML and CSS with Bootstrap",
     description: "This site was designed for a local restaurant.",
     image: "./mcglynns.jpg",
+    linkactive: false,
+    gitactive: false,
     link: "https://mcglynns.ie",
     git: "https://github.com/darrengeary/Restaurant-Website",
   },
@@ -50,6 +60,8 @@ export const websites = [
     subtitle: "Static HTML and CSS with Bootstrap",
     description: "This site was designed for a local psychotherapist.",
     image: "./rayoflight.jpg",
+    linkactive: false,
+    gitactive: false,
     link: "https://rayoflightmilford.ie",
     git: "https://github.com/darrengeary/sylvia",
   },

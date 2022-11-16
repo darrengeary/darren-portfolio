@@ -23,7 +23,7 @@ export default function Projects() {
           {projects.map((project) => (
             <Popup
               trigger={
-                <a key={project.image} className='sm:w-1/2 w-100 p-4'>
+                <a key={project.image} className='preview sm:w-1/2 w-100 p-4'>
                   <div className='flex relative'>
                     <img
                       alt='gallery'
@@ -67,6 +67,7 @@ export default function Projects() {
                   <div className='actions buttons-cont'>
                     <button
                       className='button-modal flex'
+                      disabled={project.gitactive}
                       onClick={(e) => {
                         e.preventDefault()
                         window.location.href = project.git
@@ -90,6 +91,7 @@ export default function Projects() {
                       Github
                     </button>
                     <button
+                      disabled={project.linkactive}
                       className='button-modal'
                       onClick={(e) => {
                         e.preventDefault()
