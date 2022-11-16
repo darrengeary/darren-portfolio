@@ -8,7 +8,7 @@ export default function Contact() {
       <div className='container m-auto'>
         <div className='my-8 mx-6 py-10 text-center md:text-left'>
           <div class='grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-            <div class=''>
+            <div class='footer-padding'>
               <h6
                 class='
             uppercase

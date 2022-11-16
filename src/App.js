@@ -6,7 +6,7 @@ import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
-import Education from "./components/Education"
+import Upcoming from "./components/Upcoming"
 import Websites from "./components/Websites"
 
 export default function App() {
@@ -17,6 +17,7 @@ export default function App() {
       <Projects />
       <Websites />
       <Skills />
+      <Upcoming />
       <Contact />
     </main>
   )

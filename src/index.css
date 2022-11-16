@@ -28,6 +28,17 @@
 }
 .modal {
   font-size: 12px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+@media screen and (max-width: 768px) {
+  .popup-content {
+    margin: auto !important;
+    width: 90% !important;
+  }
+}
+.popup-content {
+  margin-top: 5% !important;
 }
 
 .modal > .close {
@@ -64,4 +75,25 @@
 .git {
   padding-top: 2px;
   padding-right: 5px;
+}
+@media screen and (min-width: 1024px) {
+  .footer-padding {
+    margin-left: 140px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .footer-padding {
+    margin-left: 160px;
+  }
+}
+
+.uml {
+  margin-left: auto;
+  margin-right: auto;
+  height: 360px;
+}
+
+.upcoming-cont {
+  background-color: #efefef;
+  padding: 10%;
 }
