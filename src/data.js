@@ -6,9 +6,9 @@ export const projects = [
       "This is a current project which is designed for a local school lunch supplier to receive orders from parents",
     image: "./ithe.jpg",
     linkactive: true,
-    gitactive: true,
+    gitactive: false,
     link: "/",
-    git: "/",
+    git: "https://github.com/darrengeary/ithe",
   },
   {
     title: "Pop Up Party",

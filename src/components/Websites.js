@@ -23,7 +23,7 @@ export default function Websites() {
           {websites.map((website) => (
             <Popup
               trigger={
-                <a key={website.image} className='sm:w-1/2 w-100 p-4'>
+                <a key={website.image} className='preview sm:w-1/2 w-100 p-4'>
                   <div className='flex relative'>
                     <img
                       alt='gallery'
